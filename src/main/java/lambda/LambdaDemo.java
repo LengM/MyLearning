@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  * @author Bright
  * @date 2017/11/10 0010
  */
-public class LambdaTest {
+public class LambdaDemo {
 
     private static void oldMethod() {
         ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(1, new ThreadFactory() {
