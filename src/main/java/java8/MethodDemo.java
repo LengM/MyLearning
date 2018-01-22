@@ -1,4 +1,4 @@
-package lambda;
+package java8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +15,6 @@ import java.util.function.Supplier;
  * 4.类::普通无参方法 -- 该方法无参数
  * 
  * @author Bright
- * @date 2017/11/20 0020
  */
 public class MethodDemo {
 

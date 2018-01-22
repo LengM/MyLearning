@@ -1,4 +1,4 @@
-package lambda;
+package java8;
 
 import java.util.Random;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
@@ -17,7 +17,6 @@ import java.util.concurrent.TimeUnit;
  * () -> System.out.println("输出");
  * 
  * @author Bright
- * @date 2017/11/10 0010
  */
 public class LambdaDemo {
 
