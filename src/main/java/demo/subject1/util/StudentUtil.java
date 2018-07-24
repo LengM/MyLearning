@@ -66,14 +66,14 @@ public class StudentUtil {
     }
 
     /**
-     * 随机获取一个字符串
+     * 随机获取一个随机长度的字符串
      *
      * @param chars  字符数组
      * @param min    下标随机数的最小值
      * @param max    下标随机数的最大值
      * @param minNum 返回值长度的最小值
      * @param maxNum 返回值长度的最大值
-     * @return strings数组中下标在min~max范围内的随机字符串
+     * @return strings数组中下标在min~max范围内的，长度在minNum~maxNum范围内随机字符串
      */
     public static String randomString(char[] chars, int min, int max, int minNum, int maxNum) {
         int length = newRandom(minNum, maxNum);
